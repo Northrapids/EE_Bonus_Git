@@ -2,13 +2,17 @@ package com.northrapids.demo;
 
 public class Student {
 
-    private String name;
+    private String userName;
 
-    public String getName() {
-        return name;
+    public Student(String userName) {
+        this.userName = userName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public String getUserName() {
+        return userName;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
     }
 }
